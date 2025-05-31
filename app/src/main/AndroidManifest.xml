@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EConnect"
+        tools:targetApi="31">
+        <activity
+            android:name=".CreateVideoPost"
+            android:exported="false" />
+        <activity
+            android:name=".CreatePost"
+            android:exported="false" />
+        <activity
+            android:name=".YourVideoPost"
+            android:exported="false" />
+        <activity
+            android:name=".YourPost"
+            android:exported="false" />
+        <activity
+            android:name=".Friends"
+            android:exported="false" />
+        <activity
+            android:name=".Message"
+            android:exported="false" />
+        <activity
+            android:name=".VideoMessage"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SendVideoPost"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayVideo2"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayVideo"
+            android:exported="false" />
+        <activity
+            android:name=".Send_Post"
+            android:exported="false" />
+        <activity
+            android:name=".videoimageplayer"
+            android:exported="false"
+            android:label="@string/title_activity_videoimageplayer"
+            android:theme="@style/Theme.EConnect.NoActionBar" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ChangePasswordActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".FirstActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

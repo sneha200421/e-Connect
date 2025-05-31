@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/slidephoto"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="160dp"
+            android:background="@drawable/istockphoto"
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="120dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:text="No Network!"
+            android:textColor="@color/blue"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button11"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/blue"
+            android:text="Edit Profile"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button5"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/blue"
+            android:text="Your Posts"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button6"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/blue"
+            android:text="Your Video Posts"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button7"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/blue"
+            android:text="Your Friends"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button8"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/blue"
+            android:text="Your Message"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button9"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/blue"
+            android:text="Your Video Message"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_change_pwd"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/blue"
+            android:text="Change Password"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button10"
+            android:layout_width="215dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="@color/red"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            app:cornerRadius="20dp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="1dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
